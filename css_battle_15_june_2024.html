@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+<style>
+  *{
+    background:#0A6190;
+    position:relative;
+  }
+  div {
+    position:fixed;
+    top:90;
+    left:125;
+    width: 150;
+    height: 150;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:49px;
+    border-bottom-right-radius:49px;
+    background: #328FC1;
+  }
+  div::before{
+    position:fixed;
+    content:"";
+    width:50;
+    height:40;
+    left:175;
+    top:60;
+    border-radius:10px;
+    background:#328FC1;
+  }
+  div::after{
+    position:fixed;
+    content:"";
+    top:70;
+    left:185;
+    background:#0A6190;
+    height:20;
+    width:30;
+  }
+</style>
+
+</body>
+</html>
